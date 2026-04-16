@@ -54,6 +54,7 @@ The system consists of two main components:
 
 > **Personal note:** I tested this on Blender 4.1 and Python 3.11 — works great. The uv install step is easy to skip but don't, it'll bite you later.
 > Also tested on Blender 4.2 with Python 3.12 — no issues so far.
+> **Fork note:** I'm running this on Blender 4.3 with Python 3.12 — also working fine. If you hit import errors, make sure your venv is using the right Python version.
 
 ### Prerequisites
 
@@ -76,4 +77,4 @@ $userPath = [Environment]::GetEnvironmentVariable("Path", "User")
 [Environment]::SetEnvironmentVariable("Path", "$userPath;$localBin", "User")
 ```
 
-Otherwise installation instructions are on their website: [Install uv](https://docs.astral.sh/uv/getting-started/install)
+Otherwise installation instructions are on their websi
